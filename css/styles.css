@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: antiquewhite;
+}
+.calculadora {
+    display:block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #9994e0;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 10px 10px;
+    
+}
+.calculadora td button {
+    display: block;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+#resultado {
+    display:block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 25px;
+    overflow-y:scroll;
+}
+#reset {
+    border-style: solid;
+    border-color: aliceblue;
+    background-image: linear-gradient(to bottom right, rgb(255, 71, 215), rgb(255, 174, 0));
+}
+#igual {
+    border-style: solid;
+    border-color: aliceblue;
+    background-image: linear-gradient(to top left, rgb(125, 186, 255), rgb(76, 22, 223));
+}
+#multiplicacion , #division, #resta, #suma {
+    border-style: solid;
+    border-color: aliceblue;
+    background-image: linear-gradient(to top left, rgb(147, 145, 250), rgb(255, 157, 255));
+}
+#uno, #dos, #tres, #cuatro, #cinco, #seis, #siete, #ocho, #nueve, #cero {
+    background-color: rgb(164, 255, 225);
+    border-style: solid;
+    border-color: aliceblue;
+}
